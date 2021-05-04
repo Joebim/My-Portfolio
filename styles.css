@@ -4,6 +4,7 @@
    padding: 0px;
    margin: 0px;
    
+   
 }
 
 body {
@@ -12,8 +13,9 @@ body {
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
-    font-family: 'Righteous', sans-serif;
+    font-family: 'Bellota', sans-serif;
     background-color: #FCEBEB;
+    zoom: 30%;
 }
 
 .header {
@@ -27,8 +29,40 @@ body {
     background-size: cover;
 }
 
+.photo-header h1 {
+    padding-top: 100px;
+    padding-left: 18%;
+    font-size: 200px;
+    color: #fff5f4;
+    
+}
+
+.photo-header p {
+    padding-top: 50px;
+    padding-left: 18%;
+    padding-right: 18%;
+    font-size: 70px;
+    color: #da5533;
+}
+
 .container {
     width: 100%;
+}
+
+.container h3 {
+    padding-top: 100px;
+    padding-left: 18%;
+    font-size: 100px;
+    color: #df948e;
+    font-family: 'Overlock';
+}
+
+.container p {
+    padding-top: 50px;
+    padding-left: 18%;
+    padding-right: 18%;
+    font-size: 70px;
+    color: #da5533;
 }
 /* .right-side {
     width: 100%;
@@ -209,103 +243,6 @@ body {
     height: 1120px;
 }
 
-@media only screen and (max-width: 700px) {
-    .container {
-        align-items: center;
-    }
-
-    .vl {
-        background-color: #FFACA3;
-        height: 300px;
-        width: 8px;
-    }
-
-    .vl:hover {
-        background-color: #cf3625;
-    }
-
-    .card {
-        height: 300px;
-        width: 300px;
-        border-radius: 40px;
-        margin: auto; 
-    }
-
-    .card:hover {
-        box-shadow: 0px 0px 60px #ffd5d0;
-        width: 300px;
-        height: 320px;
-    }
-
-    .card-two {
-        height: 300px;
-        width: 300px;
-        border-radius: 40px;
-        margin: auto;
-    }
-    
-    .card-two:hover {
-        box-shadow: 0px 0px 60px #ffd5d0;
-        width: 300px;
-        height: 320px;
-    }
-
-    .card-three {
-        height: 300px;
-        width: 300px;
-        border-radius: 40px;
-        margin: auto;
-    }
-
-    .card-three:hover {
-        box-shadow: 0px 0px 60px #ffd5d0;
-        width: 300px;
-        height: 320px;
-    }
-
-    .card-four {
-        height: 300px;
-        width: 300px;
-        border-radius: 40px;
-        margin: auto;
-    }
-
-    .card-four:hover {
-        box-shadow: 0px 0px 60px #ffd5d0;
-        width: 300px;
-        height: 320px;
-    }
-}
-
-@media (width: 280px) {
-    .card {
-        height: 300px;
-        width: 250px;
-        border-radius: 40px;
-        margin: auto; 
-    }
-
-    .card-two {
-        height: 300px;
-        width: 250px;
-        border-radius: 40px;
-        margin: auto;
-    }
-
-    .card-three {
-        height: 300px;
-        width: 250px;
-        border-radius: 40px;
-        margin: auto;
-    }
-
-    .card-four {
-        height: 300px;
-        width: 250px;
-        border-radius: 40px;
-        margin: auto;
-    }
-}
 
 
 footer {
