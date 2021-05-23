@@ -498,6 +498,24 @@ body {
     font-weight: bold;
 }
 
+
+@media screen and (max-width: 600px) {
+    .card-two img {
+        height: 200px;
+        margin-left: 27%;
+        margin-right: 27%;
+        margin-bottom: 10%;
+    }
+
+    .card-three img {
+        height: 200px;
+        margin-left: 27%;
+        margin-right: 27%;
+        margin-bottom: 10%;
+    }
+}
+
+
 footer {
     width: 100%;
     height: auto;
