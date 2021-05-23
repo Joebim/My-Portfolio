@@ -322,8 +322,8 @@ body {
 }
 
 .card-two img {
-    margin-left: 27%;
-    margin-right: 27%;
+    padding-left: 27%;
+    padding-right: 27%;
     margin-bottom: 10%;
 }
 
@@ -354,8 +354,8 @@ body {
 }
 
 .card-three img {
-    margin-left: 27%;
-    margin-right: 27%;
+    padding-left: 27%;
+    padding-right: 27%;
     margin-bottom: 10%;
 }
 
@@ -382,7 +382,7 @@ body {
     padding: 100px;
 }
 
-.card-four img {
+.logos img {
     flex: 5%;
     padding: 50px;
 }
@@ -404,11 +404,6 @@ body {
     height: auto;
 }
 
-.card-five img {
-    flex: 5%;
-    padding: 50px;
-}
-
 .card-six {
     width: 50%;
     height: auto;
@@ -426,11 +421,6 @@ body {
     height: auto;
 }
 
-.card-six img {
-    flex: 5%;
-    padding: 50px;
-}
-
 .card-seven {
     width: 50%;
     height: auto;
@@ -446,11 +436,6 @@ body {
     box-shadow: 0px 0px 60px #ffcbc3;
     width: 50.5%;
     height: auto;
-}
-
-.card-seven img {
-    flex: 5%;
-    padding: 50px;
 }
 
 .end {
@@ -500,18 +485,182 @@ body {
 
 
 @media screen and (max-width: 600px) {
+
+    .profile h4 {
+        padding-top: 300px;
+        padding-left: 18%;
+        padding-right: 18%;
+        font-size: 180px;
+    }
+    
+    .profile h2 {
+        padding-top: 70px;
+        padding-left: 18%;
+        padding-right: 18%;
+        font-size: 70px;
+    }
+    
+    .profile h3 {
+        padding-top: 200px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 150px;
+        margin-top: 10px;
+        font-size: 102px;
+    }
+    
+    .profile button {
+        height: 200px;
+        width: 200px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        background-color: #8f2e23;
+    }
+
+    .container h3 {
+        padding-top: 150px;
+        padding-bottom: 50px;
+        font-size: 60px;
+    }
+
+    .container p {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+
+    .card {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        transition: 0.8s;
+        transition-timing-function: ease;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .card:hover {
+        box-shadow: 0px 0px 60px #691f18;
+        width: 70.5%;
+        height: auto;
+    }
+    
+    .card h1 {
+        padding-top: 100px;
+        font-size: 100px;
+        color: #fff5f4;
+        text-align: center;
+        position: relative;
+        animation: hi 3s infinite;
+        animation-timing-function: ease-out;
+        animation-delay: 4s;
+    }
+    
+    @keyframes hi {
+        0% {color: #fff5f4; font-size: 100px;}
+        50% {color: #fff5f4; font-size: 150px;}
+        100% {color: #fff5f4; font-size: 100px;}
+    }
+    
+    .card p {
+        padding-top: 50px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 150px;
+        font-size: 50px;
+        color: #f7b9a6;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .card-two {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+
     .card-two img {
         height: 200px;
-        margin-left: 27%;
-        margin-right: 27%;
+        padding-left: 34%;
+        padding-right: 34%;
         margin-bottom: 10%;
+    }
+
+    .card-two:hover {
+        width: 80.5%;
+        height: auto;
+    }
+
+    .card-three {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
     }
 
     .card-three img {
         height: 200px;
-        margin-left: 27%;
-        margin-right: 27%;
+        padding-left: 34%;
+        padding-right: 34%;
         margin-bottom: 10%;
+    }
+
+    .card-three:hover {
+        width: 80.5%;
+        height: auto;
+    }
+
+    .logos {
+        padding: 50px;
+    }
+
+    .logos img {
+        height: 150px;
+        flex: 3%;
+        padding: 25px;
+    }
+
+    .card-four {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .card-four:hover {
+        width: 80.5%;
+        height: auto;
+    }
+
+    .card-five {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .card-five:hover {
+        width: 80.5%;
+        height: auto;
+    }
+
+    .card-six {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .card-six:hover {
+        width: 80.5%;
+        height: auto;
+    }
+
+    .card-seven {
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .card-seven:hover {
+        width: 80.5%;
+        height: auto;
     }
 }
 
