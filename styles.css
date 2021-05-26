@@ -73,7 +73,7 @@ body {
     border-color: #bd4436;
     border-style: solid;
     border-width: 15px;
-    animation: button 5s infinite;
+    animation: button 4s infinite;
     animation-timing-function: ease;
     transition: 0.5s;
     transition-timing-function: ease;
@@ -101,7 +101,7 @@ body {
     border-color: #a8372b;
     border-style: solid;
     border-width: 20px; 
-    animation: buttonHover 5s infinite;  
+    animation: buttonHover 4s infinite;  
 }
 
 @keyframes buttonHover {
@@ -151,12 +151,13 @@ body {
     color: #da5533;
     text-align: center;
 }
-/* .right-side {
+.right-side {
     width: 100%;
     height: 150px;
+    
 }
 
-.right-side div {
+/* .right-side div {
     margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
@@ -165,9 +166,32 @@ body {
     float: right;
     text-align: center;
 
+} */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.nav-link-wrapper {
+    display: flex;
 }
 
-.nav-link-wrapper {
+.nav-link {
+    margin: 0 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hamburger {
+    /* display: none; */
+    height: 100px;
+    width: 100px;
+    display: none;
+}
+
+
+/* .nav-link-wrapper {
     width: 250px;
     height: 70px;
     border-bottom: 2px solid transparent;
@@ -181,26 +205,32 @@ body {
     transition: color 0.8s;
     position: relative;
     top: 10px;
-}
+} */
 
-.nav-link-wrapper:hover {
+.nav-link:hover {
     height: 60px;
     border-bottom: 9px solid #EE5645;
     border-radius: 50px;
     background-color: #EE5645;
-} 
+}
 
-.nav-link-wrapper a:hover {
+.nav-link a {
+    font-size: 50px;
+    color: #EE5645;
+    text-decoration: none;
+    transition: color 0.8s;
+}
+
+.nav-link a:hover {
     height: 60px;
     color:  #FFD7D4;
 }
 
 .profile {
     position: relative;
-    display: flex;
-    height: 500px;
+    height: auto;
     width: 100%;
-    padding-top: 200px;
+    padding-top: 10px;
     justify-content: center;
 }
 
@@ -236,7 +266,7 @@ body {
 .board-three{
     background-color: #f7f7f7;
     height: 1500px;
-} */
+}
 
 .intro {
     background-color: #8f2e23;
@@ -325,6 +355,7 @@ body {
     padding-left: 27%;
     padding-right: 27%;
     margin-bottom: 10%;
+    text-align: center;
 }
 
 /* .hl {
@@ -357,6 +388,7 @@ body {
     padding-left: 27%;
     padding-right: 27%;
     margin-bottom: 10%;
+    text-align: center;
 }
 
 .card-four {
@@ -485,6 +517,50 @@ body {
 
 
 @media screen and (max-width: 1000px) {
+    .navbar {
+        display: block;
+        height: 100px;
+        width: 100px;
+        cursor: pointer;
+    }
+
+    .nav-link-wrapper {
+        display: none;
+    }
+
+    .nav-link-wrapper.show {
+        height: auto;
+        width: 400px;
+        background-color: #ffffff;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 200px;
+        margin-right: 50px;
+        border-radius: 25px;
+        z-index: 2;
+    }
+
+    .nav-link {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        /* display: block; */
+    }
+
+    .nav-link a {
+        font-size: 50px;
+        color: #EE5645;
+        text-decoration: none;
+        transition: color 0.8s;
+    }
+
+    .hamburger {
+        display: flex;
+        float: right;
+        height: 100px;
+        width: 100px;
+        cursor: pointer;
+    }
 
     .profile h4 {
         padding-top: 300px;
@@ -582,7 +658,6 @@ body {
     .card-two img {
         height: 200px;
         padding-left: 34%;
-        padding-right: 34%;
         margin-bottom: 10%;
     }
 
@@ -600,7 +675,6 @@ body {
     .card-three img {
         height: 200px;
         padding-left: 34%;
-        padding-right: 34%;
         margin-bottom: 10%;
     }
 
