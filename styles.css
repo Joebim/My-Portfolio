@@ -645,6 +645,7 @@ body {
     }
 
     .container p {
+        padding-top: 0%;
         padding-right: 10%;
         padding-left: 10%;
     }
