@@ -380,7 +380,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    background: white;
+    background-color: white;
     box-sizing: border-box;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -388,7 +388,13 @@ body {
     padding-right: 100px;
     border-radius: 100px;
     text-align: center;
+    transition: 0.5s;
 }
+
+.inner:hover {
+    background-color: #fff0df;
+}
+
 
 .card-three {
     width: 50%;
@@ -403,8 +409,9 @@ body {
     border-radius: 100px;
     transition: 0.7s;
     transition-timing-function: ease;
-    padding-left: 27%;
+    padding-left: 29%;
 }
+
 
 .card-three:hover {
     box-shadow: 0px 0px 60px #cacaca;
@@ -463,7 +470,7 @@ body {
     border-radius: 100px;
     transition: 0.7s;
     transition-timing-function: ease;
-    padding-left: 27%;
+    padding-left: 29%;
 }
 
 .card-five:hover {
@@ -506,7 +513,7 @@ body {
     border-radius: 100px;
     transition: 0.7s;
     transition-timing-function: ease;
-    padding-left: 27%;
+    padding-left: 29%;
 }
 
 .card-seven:hover {
