@@ -6,6 +6,10 @@
    margin: 0px;   
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     height: 100%;
     width: 100%;
@@ -264,7 +268,7 @@ body {
 }
 
 .vl {
-    background-color: #FFACA3;
+    background-color: #ffc7c1;
     margin-right: 49.5%;
     margin-left: 49.5%;
     width: 20px;
