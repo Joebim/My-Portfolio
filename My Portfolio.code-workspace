@@ -6,6 +6,7 @@
 	],
 	"settings": {
 		"python.pythonPath": "C:\\Users\\josey\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
-		"liveServer.settings.multiRootWorkspaceName": "My Portfolio"
+		"liveServer.settings.multiRootWorkspaceName": "My Portfolio",
+		"liveServer.settings.port": 5501
 	}
 }
