@@ -873,6 +873,13 @@ body {
         padding-left: 10%;
     }
 
+    .intro {
+        height: auto;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
     .card {
         width: 80%;
         margin-left: 10%;
@@ -901,13 +908,24 @@ body {
         100% {font-size: 100px;}
     } */
     
-    .intro h2 {
-        font-size: 50px;
-        color: #ffffff;
+    .intro-one h2 {
+        font-size: 60px;
+        color: #e25d5d;
         font-weight: bold;
         text-align: center;
-        margin: 0px;
-        padding: 0px;
+        padding: 0;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+    .intro-two h2 {
+        font-size: 60px;
+        color: #e25d5d;
+        font-weight: bold;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        padding-top: 40px;
     }
 
     .card-two {
