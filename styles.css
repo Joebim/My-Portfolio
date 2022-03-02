@@ -927,6 +927,9 @@ body {
         margin: 0;
         padding-top: 40px;
     }
+     .intro img {
+         width: 100%;
+     }
 
     .card-two {
         width: 80%;
